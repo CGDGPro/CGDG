@@ -1,0 +1,709 @@
+/* navigation */
+
+
+/* Custom styles for the navigation */
+
+.navbar {
+    background-color: #f8f9fa;
+    /* Set the background color */
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    /* Adjust the font size */
+}
+
+.navbar .nav-link {
+    color: #333;
+    /* Set the link color */
+}
+
+.navbar .nav-link:hover {
+    color: #000;
+    /* Set the link color on hover */
+}
+
+.navbar-toggler {
+    border: none;
+    /* Remove the border */
+}
+
+.navbar-toggler-icon {
+    background-color: #333;
+    /* Set the toggle icon color */
+}
+
+@media (max-width: 767px) {
+    /* Media query for small screens */
+    .navbar .navbar-collapse {
+        background-color: #f8f9fa;
+        /* Set the background color of the collapsed menu */
+    }
+    .navbar .nav-item {
+        text-align: center;
+        /* Center the navigation items in the collapsed menu */
+    }
+    .navbar .nav-link {
+        display: block;
+        /* Display the navigation links as blocks */
+        padding: 10px 0;
+        /* Add padding to the navigation links */
+        border-bottom: 1px solid #ccc;
+        /* Add a border between the navigation links */
+    }
+    .navbar-toggler {
+        margin-top: 5px;
+        /* Adjust the margin of the toggler icon */
+    }
+}
+
+
+/* end navigation */
+
+
+/* hero */
+
+
+/* Custom styles for the hero section */
+
+.hero {
+    /* background-image: url('path/to/your/image.jpg'); */
+    background-color: #140000;
+    /* Set the background image path */
+    background-size: cover;
+    /* Adjust the background image size */
+    background-position: center center;
+    /* Center the background image */
+    padding: 200px 0;
+    /* Adjust the top and bottom padding */
+    text-align: center;
+    /* Center the content */
+    color: #fff;
+    /* Set the text color */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    /* Set the font size */
+    margin-bottom: 20px;
+    /* Add some bottom margin */
+}
+
+.hero p {
+    font-size: 1.5rem;
+    /* Set the font size */
+    margin-bottom: 40px;
+    /* Add some bottom margin */
+}
+
+.hero .btn {
+    font-size: 1.2rem;
+    /* Set the font size */
+    padding: 12px 30px;
+    /* Adjust the button padding */
+}
+
+@media (max-width: 767px) {
+    /* Media query for small screens */
+    .hero h1 {
+        font-size: 2.5rem;
+        /* Adjust the font size for smaller screens */
+    }
+    .hero p {
+        font-size: 1.2rem;
+        /* Adjust the font size for smaller screens */
+    }
+    .hero .btn {
+        font-size: 1rem;
+        /* Adjust the font size for smaller screens */
+    }
+}
+
+
+/* hero */
+
+
+/* Custom styles for the hero section */
+
+
+/*  Features*/
+
+
+/* Custom styles for the features section */
+
+.features {
+    background-color: #f8f9fa;
+    /* Set the background color */
+    padding: 80px 0;
+    /* Adjust the top and bottom padding */
+    text-align: center;
+    /* Center the content */
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    /* Set the font size */
+    color: #333;
+    /* Set the text color */
+    margin-bottom: 40px;
+    /* Add some bottom margin */
+}
+
+.features .feature-item {
+    margin-bottom: 30px;
+    /* Add some bottom margin */
+}
+
+.features .feature-item .icon {
+    font-size: 3rem;
+    /* Set the icon size */
+    color: #007bff;
+    /* Set the icon color */
+    margin-bottom: 20px;
+    /* Add some bottom margin */
+}
+
+.features .feature-item h3 {
+    font-size: 1.8rem;
+    /* Set the font size */
+    color: #333;
+    /* Set the text color */
+    margin-bottom: 10px;
+    /* Add some bottom margin */
+}
+
+.features .feature-item p {
+    font-size: 1.2rem;
+    /* Set the font size */
+    color: #666;
+    /* Set the text color */
+}
+
+@media (max-width: 767px) {
+    /* Media query for small screens */
+    .features h2 {
+        font-size: 2rem;
+        /* Adjust the font size for smaller screens */
+    }
+    .features .feature-item .icon {
+        font-size: 2.5rem;
+        /* Adjust the icon size for smaller screens */
+    }
+    .features .feature-item h3 {
+        font-size: 1.5rem;
+        /* Adjust the font size for smaller screens */
+    }
+    .features .feature-item p {
+        font-size: 1rem;
+        /* Adjust the font size for smaller screens */
+    }
+}
+
+
+/* features */
+
+
+/* CSS for typing animation */
+
+.typing-animation {
+    overflow: hidden;
+    /* Hide the overflowed text */
+    border-right: 2px solid #007bff;
+    /* Add a border on the right side of the text */
+    white-space: nowrap;
+    /* Prevent line breaks */
+    margin: 0;
+    /* Reset margin */
+    animation: typing 3s steps(40, end), blink-caret 0.5s step-end infinite;
+    /* Apply the typing animation */
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+        /* Start with a width of 0 */
+    }
+    to {
+        width: 100%;
+        /* End with full width */
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+        /* Hide the caret */
+    }
+    50% {
+        border-color: #007bff;
+        /* Show the caret */
+    }
+}
+
+
+/* hero */
+
+
+/* services */
+
+
+/* Custom styles for the services section */
+
+.services {
+    background-color: #fff;
+    /* Set the background color */
+    padding: 80px 0;
+    /* Adjust the top and bottom padding */
+    text-align: center;
+    /* Center the content */
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    /* Set the font size */
+    color: #333;
+    /* Set the text color */
+    margin-bottom: 40px;
+    /* Add some bottom margin */
+}
+
+.services .service-item {
+    margin-bottom: 30px;
+    /* Add some bottom margin */
+}
+
+.services .service-item .icon {
+    font-size: 3rem;
+    /* Set the icon size */
+    color: #007bff;
+    /* Set the icon color */
+    margin-bottom: 20px;
+    /* Add some bottom margin */
+}
+
+.services .service-item h3 {
+    font-size: 1.8rem;
+    /* Set the font size */
+    color: #333;
+    /* Set the text color */
+    margin-bottom: 10px;
+    /* Add some bottom margin */
+}
+
+.services .service-item p {
+    font-size: 1.2rem;
+    /* Set the font size */
+    color: #666;
+    /* Set the text color */
+}
+
+@media (max-width: 767px) {
+    /* Media query for small screens */
+    .services h2 {
+        font-size: 2rem;
+        /* Adjust the font size for smaller screens */
+    }
+    .services .service-item .icon {
+        font-size: 2.5rem;
+        /* Adjust the icon size for smaller screens */
+    }
+    .services .service-item h3 {
+        font-size: 1.5rem;
+        /* Adjust the font size for smaller screens */
+    }
+    .services .service-item p {
+        font-size: 1rem;
+        /* Adjust the font size for smaller screens */
+    }
+}
+
+
+/* services */
+
+
+/* pricing */
+
+
+/* Custom styles for the pricing section */
+
+.pricing {
+    background-color: #f8f9fa;
+    /* Set the background color */
+    padding: 80px 0;
+    /* Adjust the top and bottom padding */
+    text-align: center;
+    /* Center the content */
+}
+
+.pricing h2 {
+    font-size: 2.5rem;
+    /* Set the font size */
+    color: #333;
+    /* Set the text color */
+    margin-bottom: 40px;
+    /* Add some bottom margin */
+}
+
+.pricing .card {
+    border: none;
+    /* Remove the card border */
+    border-radius: 0;
+    /* Remove the border radius */
+    padding: 40px;
+    /* Adjust the padding */
+    margin-bottom: 30px;
+    /* Add some bottom margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow */
+}
+
+.pricing .card h3 {
+    font-size: 1.8rem;
+    /* Set the font size */
+    color: #333;
+    /* Set the text color */
+    margin-bottom: 20px;
+    /* Add some bottom margin */
+}
+
+.pricing .card p {
+    font-size: 1.2rem;
+    /* Set the font size */
+    color: #666;
+    /* Set the text color */
+    margin-bottom: 30px;
+    /* Add some bottom margin */
+}
+
+.pricing .card .price {
+    font-size: 2rem;
+    /* Set the font size */
+    color: #007bff;
+    /* Set the text color */
+    margin-bottom: 20px;
+    /* Add some bottom margin */
+}
+
+.pricing .card ul {
+    list-style-type: none;
+    /* Remove the default bullet points */
+    padding: 0;
+    /* Remove any padding */
+    margin-bottom: 30px;
+    /* Add some bottom margin */
+}
+
+.pricing .card ul li {
+    margin-bottom: 5px;
+    /* Add some bottom margin for each list item */
+}
+
+.pricing .card .btn {
+    font-size: 1.2rem;
+    /* Set the font size */
+    padding: 12px 30px;
+    /* Adjust the button padding */
+}
+
+@media (max-width: 767px) {
+    /* Media query for small screens */
+    .pricing h2 {
+        font-size: 2rem;
+        /* Adjust the font size for smaller screens */
+    }
+    .pricing .card {
+        padding: 30px;
+        /* Adjust the padding for smaller screens */
+    }
+    .pricing .card h3 {
+        font-size: 1.5rem;
+        /* Adjust the font size for smaller screens */
+    }
+    .pricing .card p {
+        font-size: 1rem;
+        /* Adjust the font size for smaller screens */
+    }
+    .pricing .card .price {
+        font-size: 1.5rem;
+        /* Adjust the font size for smaller screens */
+    }
+    .pricing .card .btn {
+        font-size: 1rem;
+        /* Adjust the font size for smaller screens */
+    }
+}
+
+
+/* pricing */
+
+
+/* testimonials */
+
+
+/* Custom styles for the testimonials section */
+
+.testimonials {
+    background-color: #f8f9fa;
+    /* Set the background color */
+    padding: 80px 0;
+    /* Adjust the top and bottom padding */
+    text-align: center;
+    /* Center the content */
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    /* Set the font size */
+    color: #333;
+    /* Set the text color */
+    margin-bottom: 40px;
+    /* Add some bottom margin */
+}
+
+.testimonial-item {
+    margin-bottom: 30px;
+    /* Add bottom margin between testimonials */
+}
+
+.testimonial-item p {
+    font-size: 1.2rem;
+    /* Set the font size */
+    color: #666;
+    /* Set the text color */
+    margin-bottom: 20px;
+    /* Add some bottom margin */
+}
+
+.testimonial-item h5 {
+    font-size: 1.4rem;
+    /* Set the font size */
+    font-weight: bold;
+    /* Set the font weight */
+    color: #333;
+    /* Set the text color */
+    margin-bottom: 5px;
+    /* Add some bottom margin */
+}
+
+.testimonial-item p {
+    font-size: 1.2rem;
+    /* Set the font size */
+    color: #888;
+    /* Set the text color */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 30px;
+    /* Set the width of the carousel control icons */
+    height: 30px;
+    /* Set the height of the carousel control icons */
+    background-color: #007bff;
+    /* Set the background color of the carousel control icons */
+    background-repeat: no-repeat;
+    /* Prevent repeating of the icon */
+    background-position: center;
+    /* Center the icon */
+    background-size: 50% 50%;
+    /* Set the size of the icon */
+    border-radius: 50%;
+    /* Create a circular shape */
+    border: none;
+    /* Remove the border */
+}
+
+.carousel-control-prev-icon {
+    transform: scaleX(-1);
+    /* Flip the previous icon horizontally */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 40px;
+    /* Set the width of the carousel controls */
+    height: 40px;
+    /* Set the height of the carousel controls */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Set the background color of the carousel controls */
+    text-align: center;
+    /* Center the content */
+    opacity: 1;
+    /* Set the opacity */
+    transition: opacity 0.3s ease;
+    /* Add a smooth transition */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.8;
+    /* Reduce the opacity on hover */
+}
+
+.carousel-control-prev:focus,
+.carousel-control-next:focus {
+    outline: none;
+    /* Remove the outline on focus */
+}
+
+@media (max-width: 767px) {
+    /* Media query for small screens */
+    .testimonials h2 {
+        font-size: 1.8rem;
+        /* Adjust the font size for smaller screens */
+    }
+    .testimonial-item p {
+        font-size: 1rem;
+        /* Adjust the font size for smaller screens */
+    }
+    .testimonial-item h5 {
+        font-size: 1.2rem;
+        /* Adjust the font size for smaller screens */
+    }
+}
+
+
+/* testimonials */
+
+
+/* cta */
+
+
+/* Custom styles for the CTA section */
+
+.cta {
+    background-color: #f5f5f5;
+    /* Set the background color */
+    padding: 80px 0;
+    /* Adjust the top and bottom padding */
+    text-align: center;
+    /* Center the content */
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    /* Set the font size */
+    color: #333;
+    /* Set the text color */
+    margin-bottom: 20px;
+    /* Add some bottom margin */
+}
+
+.cta p {
+    font-size: 1.2rem;
+    /* Set the font size */
+    color: #666;
+    /* Set the text color */
+    margin-bottom: 40px;
+    /* Add some bottom margin */
+}
+
+.cta .btn {
+    font-size: 1.2rem;
+    /* Set the font size */
+    padding: 12px 30px;
+    /* Adjust the button padding */
+}
+
+.cta .btn-primary {
+    background-color: #007bff;
+    /* Set the background color */
+    border-color: #007bff;
+    /* Set the border color */
+}
+
+.cta .btn-primary:hover {
+    background-color: #0069d9;
+    /* Set the background color on hover */
+    border-color: #0062cc;
+    /* Set the border color on hover */
+}
+
+@media (max-width: 767px) {
+    /* Media query for small screens */
+    .cta h2 {
+        font-size: 2rem;
+        /* Adjust the font size for smaller screens */
+    }
+    .cta p {
+        font-size: 1rem;
+        /* Adjust the font size for smaller screens */
+    }
+    .cta .btn {
+        font-size: 1rem;
+        /* Adjust the font size for smaller screens */
+    }
+}
+
+
+/* cta */
+
+
+/* footer */
+
+
+/* Custom styles for the footer section */
+
+footer {
+    background-color: #333;
+    /* Set the background color */
+    padding: 40px 0;
+    /* Adjust the top and bottom padding */
+    color: #fff;
+    /* Set the text color */
+}
+
+footer h4 {
+    font-size: 1.5rem;
+    /* Set the font size */
+    margin-bottom: 20px;
+    /* Add some bottom margin */
+}
+
+footer p {
+    font-size: 1rem;
+    /* Set the font size */
+    margin-bottom: 10px;
+    /* Add some bottom margin */
+}
+
+footer ul {
+    list-style-type: none;
+    /* Remove the default bullet points */
+    padding: 0;
+    /* Remove any padding */
+    margin-bottom: 20px;
+    /* Add some bottom margin */
+}
+
+footer ul li {
+    margin-bottom: 5px;
+    /* Add some bottom margin for each list item */
+}
+
+footer ul li a {
+    color: #fff;
+    /* Set the link text color */
+    text-decoration: none;
+    /* Remove the underline */
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    /* Add underline on hover */
+}
+
+@media (max-width: 767px) {
+    /* Media query for small screens */
+    footer h4 {
+        font-size: 1.2rem;
+        /* Adjust the font size for smaller screens */
+    }
+    footer p {
+        font-size: 0.9rem;
+        /* Adjust the font size for smaller screens */
+    }
+}
+
+
+/* footer */
